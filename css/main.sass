@@ -1,0 +1,126 @@
+---
+---
+
+@import foundation
+
+$mayus: "Amatic SC"
+$mayusbold: "Amatic"
+$title: "NeoRetroDraw"
+$script: "Learning Curve Pro"
+
+$darkgrey: #4d4d4d
+$grey: #666666
+
+a
+    color: $darkgrey
+a:hover
+    color: $grey
+
+body
+    margin: 0 5%
+    padding-top: 3rem
+    position: relative
+
+header#logo
+    h1
+        img
+            width: 100%
+
+ul#info
+    position: absolute
+    right: 0
+    top: 0
+    li
+        list-style: none
+        display: inline-block
+        padding: .5rem
+        img
+            width: 2.5rem
+header.new
+    text-align: center
+    h1
+        font-family: $title
+        display: inline-block
+        text-align: center
+        font-size: 2rem
+        @media #{$medium-up}
+            font-size: 3rem
+        @media #{$large-up}
+            font-size: 4rem
+
+    h1.flip
+        transform: rotateY(180deg)
+
+main
+    section#portfolio
+        header
+            margin: 4rem 0
+        ul
+            border-bottom: .2rem dashed black
+            li
+                list-style: none
+                border-top: .2rem dashed black
+                +grid-row($behavior:nest)
+                section.thumbnail
+                    padding: 0 !important
+                    +grid-column($columns:4)
+                    @media #{$large-up}
+                        +grid-column($columns:3)
+                    img
+                        border: .3rem black dotted
+                        width: 80%
+                        margin: 10%
+                hgroup
+                    margin: 0
+                    +grid-column($columns:8)
+                    @media #{$medium-up}
+                        margin: 4% 0
+                    @media #{$large-up}
+                        +grid-column($columns:9)
+                    h1
+                        font-family: $mayusbold
+                        font-size: 3.5rem
+                        @media #{$medium-up}
+                            font-size: 4rem
+                    h2
+                        font-family: $mayus
+                        font-size: 2.5rem
+                        @media #{$medium-up}
+                            font-size: 3rem
+            li:nth-child(even)
+                text-align: right
+                section.thumbnail
+                    +grid-column($float:right)
+    section#cv
+        margin-top: 5rem
+        section#infography
+            img
+                width: 90%
+                margin: 5%
+                @media #{$large-up}
+                    margin: 5% 10%
+                    width: 80%
+
+footer
+    border-top: .15rem dotted black
+    padding-top: .15em
+    section#license
+        border-top: .2rem solid black
+        margin: 0 !important
+        padding: 2rem 0
+        +grid-row($behavior:nest)
+        a#license_icon
+            +grid-column($columns:4)
+            @media #{$medium-up}
+                +grid-column($columns:2)
+            img
+                padding: 5%
+                width: 90%
+        p#license_text
+            font-family: $script
+            font-size: 1rem
+            +grid-column($columns:8)
+            @media #{$medium-up}
+                font-size: 2rem
+                +grid-column($columns:10)
+
