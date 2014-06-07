@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<section id="portfolio">
+	<header class="new">
+		<h1>///my portfolio</h1>
+		<h1 class="flip">///</h1>
+	</header>
+
+	<ul>
+		{% for project in site.projects %}
+		<li>
+			<a href="{{ project.url }}">
+			{% if project.thumbnail %}
+			<img class="thumbnail" src="{{ site.baseurl }}images/{{ project.thumbnail }}"/>
+			{% endif %}
+			<hgroup>
+				<h1>{{ project.title }}</h1>
+				<h2>{{ project.subtitle }}</h2>
+			</hgroup>
+		</li>
+		{% endfor %}
+	</ul>
+</section>
+
+<section id="cv">
+</section>
