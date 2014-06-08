@@ -15,6 +15,7 @@ collections:
 
 
 # URLs
+baseurl: "/"
 production_url: http://iune.info/
 permalink: /:categories/:year/:month/:day/:title
 
@@ -29,15 +30,3 @@ sass:
 redcarpet:
     extensions: ["tables", "autolink", "fenced_code_blocks", "superscript",
                 "quote", "footnotes"]
-
-JB:
-    BASE_PATH: false
-    ASSET_PATH: /static/
-    atom_path: /atom.xml
-    rss_path: /rss.xml
-    comments:
-        provider: false
-    analytics:
-        provider: false
-    sharing:
-        provider: false
