@@ -1,4 +1,5 @@
 ---
+layout: detail
 title: "antxetamedia"
 subtitle: "antxetamedia.info"
 ---
