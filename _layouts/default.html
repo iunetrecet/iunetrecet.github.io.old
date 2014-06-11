@@ -28,7 +28,7 @@
     <header id="logo">
       <hgroup>
         <h1>
-          <img alt="iune" src="{{ site.baseurl }}images/header.svg" />
+          <img alt="iune" src="{% if page.header %}{{ site.baseurl }}images/{{ page.header }}{% else %}{{ site.baseurl }}images/iune.svg" class="detail_header"{% endif %}" />
         </h1>
       </hgroup>
     </header>
