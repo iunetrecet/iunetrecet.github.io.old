@@ -4,22 +4,34 @@ layout: default
 
 <section id="project_detail">
 
+    {% if page.images %}
     <div id="gallery">
         <div class="arrow">&lt</div>
-        <div id="gallery_image"><img src="{{ page.image }}"/></div>
+        <div id="gallery_image">
+	    {% for image in page.images %}
+	    <img src="{{ site.baseurl }}images/projects/images/{{ image }}"/>
+	    {% endfor %}
+	</div>
         <div class="arrow">&gt</div>
     </div>
+    {% endif %}
 
     <article>
         <header>
             <hgroup>
                 <h1>{{ page.title }}</h1>
                 <h2>{{ page.subtitle }}</h2>
+		{% if page.link %}
+		<a class="project_link" href="{{ page.link }}">View</a>
+		{% endif %}
+		{% if page.license %}
+		<p>License: {{ page.license }}</p>
+		{% endif %}
             </hgroup>
         </header>
-        
+
         {{ content }}
     </article>
 
 </section>
-        
+
