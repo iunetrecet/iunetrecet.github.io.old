@@ -6,13 +6,13 @@ layout: default
 
     {% if page.images %}
     <div id="gallery">
-        <div class="arrow">&lt</div>
-        <div id="gallery_image">
+        <div class="arrow prev">&lt</div>
+        <div id="gallery_images">
 	    {% for image in page.images %}
 	    <img src="{{ site.baseurl }}images/projects/images/{{ image }}"/>
 	    {% endfor %}
 	</div>
-        <div class="arrow">&gt</div>
+        <div class="arrow next">&gt</div>
     </div>
     {% endif %}
 
