@@ -7,6 +7,7 @@ $mayus: "Amatic SC"
 $mayusbold: "Amatic"
 $title: "NeoRetroDraw"
 $script: "Learning Curve Pro"
+$content: "Journal"
 
 $darkgrey: #4d4d4d
 $grey: #666666
@@ -15,16 +16,25 @@ a
     color: $darkgrey
 a:hover
     color: $grey
+p
+    font-size: 1.3em
 
 body
     margin: 0 5%
-    padding-top: 3rem
     position: relative
+    font-family: $content
 
 header#logo
+    border-bottom: .2rem dotted black
     h1
+        text-align: center
         img
+            width: 40%
+            @media #{$medium-up}
+                width: 10%
+        img.index
             width: 100%
+            margin-top: 5%
 
 ul#info
     position: absolute
@@ -127,3 +137,34 @@ footer
         span.bold
             font-weight: bold
 
+
+section#project_detail
+    @include grid-row($behavior:nest)
+    div#gallery
+        @include grid-column($columns:12)
+        @media #{$medium-up}
+            @include grid-column($columns:8)
+        div.arrow
+            font-family: $mayus
+            width: 10%
+            vertical-align: middle
+            display: inline-block
+        div#gallery_image
+            width: 70%
+            vertical-align: middle
+            display: inline-block
+            img
+                100%
+            
+    article
+        @include grid-column($columns:12)
+        @media #{$medium-up}
+            @include grid-column($columns:4)
+        header
+            h1
+                font-family: $mayus
+                margin-bottom: 0
+            h2
+                font-family: $content
+                margin-top: 0
+                line-height: 1em
