@@ -4,50 +4,50 @@ header: header.svg
 ---
 
 <section id="portfolio">
-  <header class="new">
-    <h1>///my portfolio</h1>
-    <h1 class="flip">///</h1>
-  </header>
-  <ul>
-    {% for project in site.projects %}
-    <li>
-      <a href="{{ project.url }}">
-        {% if project.thumbnail %}
-        <img class="thumbnail" src="{{ site.baseurl }}images/projects/thumbnails/{{ project.thumbnail }}"/>
-        {% endif %}
-        <hgroup>
-          <h1>{{ project.title }}</h1>
-	  <h2>{{ project.subtitle }}</h2>
-        </hgroup>
-      </a>  
-    </li>
-    {% endfor %}
-  </ul>
+    <header class="new">
+      <h1>///my portfolio</h1>
+      <h1 class="flip">///</h1>
+    </header>
+    <ul>
+        {% for project in site.projects %}
+        <li>
+            <a href="{{ project.url }}">
+                {% if project.thumbnail %}
+                <section class="thumbnail"><img src="{{ site.baseurl }}images/projects/thumbnails/{{ project.thumbnail }}"/></section>
+                {% endif %}
+                <hgroup>
+                    <h1>{{ project.title }}</h1>
+                    <h2>{{ project.subtitle }}</h2>
+                </hgroup>
+            </a>  
+        </li>
+        {% endfor %}
+    </ul>
 </section>
 
 <section id="posts">
-  <header class="new">
-    <h1>///my posts</h1>
-    <h1 class="flip">///</h1>
-  </header>
-  <ul>
-    {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">
-	<h1>{{ post.title }}</h1>
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
+    <header class="new">
+        <h1>///my posts</h1>
+        <h1 class="flip">///</h1>
+    </header>
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}">
+                <h1>{{ post.title }}</h1>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
 </section>
 
 <section id="cv">
-  <header class="new">
-    <h1>///my cv</h1>
-    <h1 class="flip">///</h1>
-  </header>
+    <header class="new">
+        <h1>///my cv</h1>
+        <h1 class="flip">///</h1>
+    </header>
 
-  <section id="infography">
-    <img src="{{ site.baseurl }}images/cv.svg" alt="CV"/>
-  </section>
+    <section id="infography">
+        <img src="{{ site.baseurl }}images/cv.svg" alt="CV"/>
+    </section>
 </section>
