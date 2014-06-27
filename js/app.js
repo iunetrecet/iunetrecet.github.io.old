@@ -23,15 +23,13 @@ Gallery.prototype.tie = function() {
 Gallery.prototype.redraw = function() {
     this.selector.hide();
     this.current.show();
+    this.next_selector.removeClass('active');
+    this.prev_selector.removeClass('active');
     if (this.hasNext()) {
-	this.next_selector.show();
-    } else {
-	this.next_selector.hide();
+	this.next_selector.addClass('active');
     };
     if (this.hasPrev()) {
-	this.prev_selector.show();
-    } else {
-	this.prev_selector.hide();
+	this.prev_selector.addClass('active');
     };
 };
 Gallery.prototype.hasNext = function() {
