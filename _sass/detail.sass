@@ -5,7 +5,7 @@ section#project_detail
         @media #{$medium-up}
             @include grid-column($columns:8)
         div.arrow
-            font-family: $mayus
+            font-family: $title
             width: 10%
             vertical-align: middle
             display: inline-block
@@ -22,10 +22,19 @@ section#project_detail
             @include grid-column($columns:4)
         header
             h1
-                font-family: $mayus
+                font-family: $title
                 margin-bottom: 0
             h2
-                font-family: $content
+                font-family: $subtitle
                 margin-top: 0
                 line-height: 1em
+            div.with_borders
+                border-top: .1em dashed black
+                border-bottom: .1em dashed black
+                padding: 1em 0
+                margin: 1.5em 0
+                p
+                    margin: .5em 0 0 0
+
+                
 

@@ -8,10 +8,10 @@ layout: default
     <div id="gallery">
         <div class="arrow prev">&lt</div>
         <div id="gallery_images">
-	    {% for image in page.images %}
-	    <img src="{{ site.baseurl }}images/projects/images/{{ image }}"/>
-	    {% endfor %}
-	</div>
+            {% for image in page.images %}
+            <img src="{{ site.baseurl }}images/projects/images/{{ image }}"/>
+            {% endfor %}
+        </div>
         <div class="arrow next">&gt</div>
     </div>
     {% endif %}
@@ -21,13 +21,15 @@ layout: default
             <hgroup>
                 <h1>{{ page.title }}</h1>
                 <h2>{{ page.subtitle }}</h2>
-		{% if page.link %}
-		<a class="project_link" href="{{ page.link }}">View</a>
-		{% endif %}
-		{% if page.license %}
-		<p>License: {{ page.license }}</p>
-		{% endif %}
             </hgroup>
+            <div class="with_borders">
+                {% if page.link %}
+                <a class="project_link" href="{{ page.link }}">{{ page.link }}</a>
+                {% endif %}
+                {% if page.license %}
+                <p>License: {{ page.license }}</p>
+                {% endif %}
+            </div>
         </header>
 
         {{ content }}

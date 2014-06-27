@@ -9,13 +9,12 @@ a
     color: $darkgrey
 a:hover
     color: $grey
-p
-    font-size: 1.3em
 
 body
     margin: 0 5%
     position: relative
     font-family: $content
+    font-size: 1.1em
 
 header#logo
     border-bottom: .2rem dotted black
@@ -42,7 +41,7 @@ ul#info
 header.new
     text-align: center
     h1
-        font-family: $title
+        font-family: $header
         display: inline-block
         text-align: center
         font-size: 2rem
@@ -81,12 +80,12 @@ main
                     @media #{$large-up}
                         +grid-column($columns:9)
                     h1
-                        font-family: $mayusbold
+                        font-family: $title
                         font-size: 3.5rem
                         @media #{$medium-up}
                             font-size: 4rem
                     h2
-                        font-family: $mayus
+                        font-family: $subtitle
                         font-size: 2.5rem
                         @media #{$medium-up}
                             font-size: 3rem
