@@ -2,15 +2,8 @@
 ---
 
 @import foundation
-
-$mayus: "Amatic SC"
-$mayusbold: "Amatic"
-$title: "NeoRetroDraw"
-$script: "Learning Curve Pro"
-$content: "Journal"
-
-$darkgrey: #4d4d4d
-$grey: #666666
+@import settings
+@import detail
 
 a
     color: $darkgrey
@@ -137,34 +130,3 @@ footer
         span.bold
             font-weight: bold
 
-
-section#project_detail
-    @include grid-row($behavior:nest)
-    div#gallery
-        @include grid-column($columns:12)
-        @media #{$medium-up}
-            @include grid-column($columns:8)
-        div.arrow
-            font-family: $mayus
-            width: 10%
-            vertical-align: middle
-            display: inline-block
-        div#gallery_image
-            width: 70%
-            vertical-align: middle
-            display: inline-block
-            img
-                100%
-            
-    article
-        @include grid-column($columns:12)
-        @media #{$medium-up}
-            @include grid-column($columns:4)
-        header
-            h1
-                font-family: $mayus
-                margin-bottom: 0
-            h2
-                font-family: $content
-                margin-top: 0
-                line-height: 1em

@@ -1,0 +1,31 @@
+section#project_detail
+    @include grid-row($behavior:nest)
+    div#gallery
+        @include grid-column($columns:12)
+        @media #{$medium-up}
+            @include grid-column($columns:8)
+        div.arrow
+            font-family: $mayus
+            width: 10%
+            vertical-align: middle
+            display: inline-block
+        div#gallery_image
+            width: 70%
+            vertical-align: middle
+            display: inline-block
+            img
+                width: 100%
+            
+    article
+        @include grid-column($columns:12)
+        @media #{$medium-up}
+            @include grid-column($columns:4)
+        header
+            h1
+                font-family: $mayus
+                margin-bottom: 0
+            h2
+                font-family: $content
+                margin-top: 0
+                line-height: 1em
+
