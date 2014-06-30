@@ -2,18 +2,20 @@
 layout: default
 ---
 
-<section id="project_detail">
+<section id="project">
 
     {% if page.images %}
-    <div id="gallery">
-        <div class="arrow prev">&lt</div>
-        <div id="gallery_images">
-            {% for image in page.images %}
-            <img src="{{ site.baseurl }}images/projects/images/{{ image }}"/>
-            {% endfor %}
-        </div>
-        <div class="arrow next">&gt</div>
-    </div>
+    <table id="gallery">
+        <tr>
+            <td class="arrow prev"><p>&lt</p></td>
+            <td id="gallery_images">
+                {% for image in page.images %}
+                <img src="{{ site.baseurl }}images/projects/images/{{ image }}"/>
+                {% endfor %}
+            </td>
+            <td class="arrow next"><p>&gt</p></td>
+        </tr>
+    </table>
     {% endif %}
 
     <article>

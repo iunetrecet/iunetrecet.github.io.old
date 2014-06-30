@@ -1,0 +1,51 @@
+section#project
+    position: relative
+    padding: 2rem 0
+    @include grid-row($behavior:nest)
+    table#gallery
+        border: none
+        margin-top: 1rem
+        @include grid-column($columns:12)
+        @media #{$medium-up}
+            @include grid-column($columns:9)
+        tr
+            td.arrow
+                width: 5%
+                &.active p
+                    cursor: pointer
+                    color: black
+                p
+                    font-family: $title
+                    font-size: 5em
+                    color: $lightergrey
+                    
+            td#gallery_images
+                width: 90%
+                img
+                    width: 100%
+                    max-height: 100%
+            
+    article
+        @include grid-column($columns:12)
+        @media #{$medium-up}
+            @include grid-column($columns:3)
+        header
+            h1
+                font-family: $title
+                margin-bottom: 0
+            h2
+                font-family: $subtitle
+                margin-top: 0
+                line-height: 1em
+            div.with_borders
+                border-top: .1em dashed black
+                border-bottom: .1em dashed black
+                padding: 1em 0
+                margin: 1.5em 0
+                p
+                    margin: .5em 0 0 0
+                p, a
+                    font-size: .8em
+
+                
+
