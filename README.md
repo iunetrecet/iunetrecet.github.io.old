@@ -12,3 +12,10 @@ Running
 ```
 bundle exec jekyll serve -w
 ```
+
+Deployment
+==========
+
+```
+bundle exec rake deploy
+```
