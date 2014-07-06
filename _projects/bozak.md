@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "bozak"
-subtitle: "logo design for a women and communication association"
+subtitle: "Design of a logo for a women and communication association"
 thumbnail: "bozak.png"
 license: "cc-by-sa"
 images:

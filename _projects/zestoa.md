@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "zestoako udala"
-subtitle: "Web of the Zestoa village local government"
+subtitle: "Web of the local government of Zestoa"
 thumbnail: "zestoa.png"
 license: "GPLv3"
 link: "http://zestoa.net/"

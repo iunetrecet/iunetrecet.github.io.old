@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "arzak pipak"
-subtitle: "Publishing project of a photography class"
+subtitle: "Publishing project of a photography subject"
 thumbnail: "pipak.png"
 license: "cc-by-sa"
 images:

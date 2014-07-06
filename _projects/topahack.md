@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "topahack"
-subtitle: "Marketing plan of a hacker meeting"
+subtitle: "Marketing plan for a hacker meeting"
 thumbnail: "topahack.png"
 license: "public domain"
 images:

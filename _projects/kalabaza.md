@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "kalabaza tripontzi"
-subtitle: "Project for a photography class"
+subtitle: "Project for a photography subject"
 thumbnail: "kalabaza.png"
 license: "cc-by-sa"
 images:
