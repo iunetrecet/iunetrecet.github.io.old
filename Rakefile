@@ -1,16 +1,16 @@
 
-desc "Deploy _site/ to built branch"
+desc "Deploy _site/ to master branch"
 task :deploy do
-  puts "\n## Stash index changes on master"
+  puts "\n## Stash index changes on source"
   status = system("git stash")
   puts status ? "Success" : "Failed"
 
-  puts "\n## Deleting built branch"
-  status = system("git branch -D built")
+  puts "\n## Deleting master branch"
+  status = system("git branch -D master")
   puts status ? "Success" : "Failed"
 
-  puts "\n## Creating new built branch and switching to it"
-  status = system("git checkout -b built")
+  puts "\n## Creating new master branch and switching to it"
+  status = system("git checkout -b master")
   puts status ? "Success" : "Failed"
 
   puts "\n## Building to _site"
@@ -30,16 +30,16 @@ task :deploy do
   status = system("git filter-branch --subdirectory-filter _site/ -f")
   puts status ? "Success" : "Failed"
 
-  puts "\n## Switching back to master branch"
-  status = system("git checkout master")
+  puts "\n## Switching back to source branch"
+  status = system("git checkout source")
   puts status ? "Success" : "Failed"
 
   puts "\n## Apply stashed changes"
   status = system("git stash apply && git stash drop")
   puts status ? "Success" : "Failed"
 
-  puts "\n## Pushing built branch to origin"
-  status = system("git push -f origin built")
+  puts "\n## Pushing master branch to origin"
+  status = system("git push -f origin master")
   puts status ? "Success" : "Failed"
 end
 
