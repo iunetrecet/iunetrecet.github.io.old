@@ -30,8 +30,8 @@ task :deploy do
   status = system("git checkout master")
   puts status ? "Success" : "Failed"
 
-  puts "\n## Pushing all branches to origin"
-  status = system("git push --all origin")
+  puts "\n## Pushing built branch to origin"
+  status = system("git push -f origin built")
   puts status ? "Success" : "Failed"
 end
 
