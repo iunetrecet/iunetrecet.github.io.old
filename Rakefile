@@ -22,7 +22,7 @@ task :deploy do
   puts status ? "Success" : "Failed"
 
   puts "\n## Committing a site build at #{Time.now.utc}"
-  message = "Build site at #{Time.now.utc}"
+  message = "Site built at #{Time.now.utc}"
   status = system("git commit -m \"#{message}\"")
   puts status ? "Success" : "Failed"
 
