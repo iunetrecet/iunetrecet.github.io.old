@@ -1,6 +1,10 @@
 
 desc "Deploy _site/ to built branch"
 task :deploy do
+  puts "\n## Stash index changes on master"
+  status = system("git stash")
+  puts status ? "Success" : "Failed"
+
   puts "\n## Deleting built branch"
   status = system("git branch -D built")
   puts status ? "Success" : "Failed"
@@ -28,6 +32,10 @@ task :deploy do
 
   puts "\n## Switching back to master branch"
   status = system("git checkout master")
+  puts status ? "Success" : "Failed"
+
+  puts "\n## Apply stashed changes"
+  status = system("git stash apply && git stash drop")
   puts status ? "Success" : "Failed"
 
   puts "\n## Pushing built branch to origin"
