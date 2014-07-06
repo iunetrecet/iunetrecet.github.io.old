@@ -1,11 +1,12 @@
 ---
 layout: project
-title: "bozak"
-subtitle: "logo design for a women and communication association"
-thumbnail: "bozak.png"
+title: "iune"
+subtitle: "My identity manual"
+thumbnail: "eskuliburua.png"
 license: "cc-by-sa"
+link: "http://iune.info/"
 images:
-    - "bozak.jpg"
+    - "eskuliburu.jpg"
 ---
 
 

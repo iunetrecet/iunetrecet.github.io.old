@@ -1,11 +1,11 @@
 ---
 layout: project
-title: "bozak"
-subtitle: "logo design for a women and communication association"
-thumbnail: "bozak.png"
+title: "typographic poster"
+subtitle: "Typographic poster for a present"
+thumbnail: "kartel_tipografikoa.png"
 license: "cc-by-sa"
 images:
-    - "bozak.jpg"
+    - "kartel_tipografikoa.jpg"
 ---
 
 

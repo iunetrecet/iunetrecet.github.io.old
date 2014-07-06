@@ -1,11 +1,11 @@
 ---
 layout: project
-title: "jaion"
-subtitle: "Poster for an association party"
-thumbnail: "jaion.png"
-license: "public domain"
+title: "arzak pipak"
+subtitle: "Publishing project of a photography class"
+thumbnail: "pipak.png"
+license: "cc-by-sa"
 images:
-    - "jaion.jpg"
+    - "pipak.jpg"
 ---
 
 
