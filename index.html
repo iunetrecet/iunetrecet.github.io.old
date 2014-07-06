@@ -33,9 +33,7 @@ header: header.svg
     <ul>
         {% for post in site.posts %}
         <li>
-            <a href="{{ post.url }}">
-                <h1>{{ post.title }}</h1>
-            </a>
+            <a href="{{ post.url }}">{{ post.title }}</a>
         </li>
         {% endfor %}
     </ul>
