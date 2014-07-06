@@ -1,5 +1,5 @@
-> The `master` branch hold the sites source code while the `built` branch holds
-  the built site. The default branch at Github is set to `built` so that the
+> The `source` branch hold the sites source code while the `master` branch holds
+  the built site. The default branch at Github is set to `master` so that the
   site is rendered through Github Pages.
 
 Installation
