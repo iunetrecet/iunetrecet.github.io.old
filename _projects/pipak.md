@@ -8,6 +8,6 @@ images:
     - "pipak.jpg"
 ---
 
+My project was a sunflower seeds advertise. I wanted to make something special and I decided to make gourmet seeds.
 
-Antxeta Irratia is a community radio from Bidasoa's valley. 
-This was my first project as web designer.
+The gourmet style is transmitted with the white color and the minimalistic style.

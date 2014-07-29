@@ -8,6 +8,6 @@ images:
     - "kalabaza.jpg"
 ---
 
+The project was to make an advertising poster of a profession. I decided to make a funny profession like a clown company.
 
-Antxeta Irratia is a community radio from Bidasoa's valley. 
-This was my first project as web designer.
+A clown company poster should transmit happiness and I asked a classmate to pose with her best smile. 

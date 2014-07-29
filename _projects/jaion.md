@@ -8,6 +8,8 @@ images:
     - "jaion.jpg"
 ---
 
+Jaion is an anniversary party of an association from Irun, the name is Jaion in Basque, the meaning is Jai/Party On/Good.
 
-Antxeta Irratia is a community radio from Bidasoa's valley. 
-This was my first project as web designer.
+The slogan of the party was 'Puztu Lakaxita!' ('Inflate Lakaxita!'), that is why the balloons are the protagonists of the poster. And the concert of the truck explains the format of the concert.
+
+The design of the poster needed to be flashy, colorful and funny. Because it should summon young people. 

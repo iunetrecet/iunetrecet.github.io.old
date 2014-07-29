@@ -7,7 +7,7 @@ license: "GPLv3"
 link: "http://antxetamedia.info/"
 images:
     - "antxetamedia.jpg"
-    - "bozak.jpg"
+    - "antxetamedia1.jpg"
 ---
 
 Antxeta Irratia is a community radio from Bidasoa valley.

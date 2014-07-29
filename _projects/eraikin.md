@@ -9,5 +9,6 @@ images:
     - "eraikin.jpg"
 ---
 
-Antxeta Irratia is a community radio from Bidasoa's valley. 
-This was my first project as web designer.
+EraikIN is a project developed by GISA Elkartea. Bored of being lost in large buildings, we decided to build a useful tool to easily find the bathrooms or a specific office.
+
+The web design is clear and easy for use, with few colors to give importance to the maps.
