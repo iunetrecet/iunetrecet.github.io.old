@@ -46,6 +46,7 @@ GEM
     jekyll-watch (1.0.0)
       listen (~> 2.7)
     kramdown (1.4.0)
+    libv8 (3.16.14.3)
     liquid (2.6.1)
     listen (2.7.9)
       celluloid (>= 0.15.2)
@@ -63,8 +64,12 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     redcarpet (3.1.2)
+    ref (1.0.5)
     safe_yaml (1.0.3)
     sass (3.2.19)
+    therubyracer (0.12.1)
+      libv8 (~> 3.16.14.0)
+      ref
     thor (0.19.1)
     timers (1.1.0)
     toml (0.1.1)
@@ -79,3 +84,4 @@ DEPENDENCIES
   foundation
   jekyll
   rake
+  therubyracer
