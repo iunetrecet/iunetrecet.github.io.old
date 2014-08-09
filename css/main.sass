@@ -65,7 +65,7 @@ main
             border-bottom: .1rem dashed black
             li
                 list-style: none
-                border-top: .2rem dashed black
+                border-top: .1rem dashed black
                 +grid-row($behavior:nest)
                 section.thumbnail
                     padding: 0 !important
@@ -98,6 +98,7 @@ main
                 section.thumbnail
                     +grid-column($float:right)
     section#posts
+        display: none
         ul
             width: 100%
             min-height: 200px
@@ -116,10 +117,10 @@ main
                     margin-top: 0
                     font-size: 3em
             li:first-child
-                border-top: dashed .1em black
+                border-top: dotted .15em black
                 padding-top: 2em
             li:last-child
-                border-bottom: dashed .1em black
+                border-bottom: dotted .15em black
                 padding-bottom: 2em
         
     section#cv
