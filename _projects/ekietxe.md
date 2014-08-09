@@ -6,6 +6,7 @@ thumbnail: "ekietxe.png"
 link: "http://ekietxe.com/"
 images:
     - "ekietxe.jpg"
+    - "ekietxe1.jpg"
 ---
 
 The web was made for a bioclimatic constructor. It is an online business card for him.
