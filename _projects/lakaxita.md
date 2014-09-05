@@ -10,6 +10,6 @@ images:
     - "lakaxita1.jpg"
 ---
 
-Lakaxita is an association from Irun. They needed a clear and simple web for write their news. The web is very simple because the important thing is the content. 
+Lakaxita is an association from Irun. They needed a clear and simple web for write their news. The web is very simple because the important thing is the content.
 
 I used Foundation with Sass to develop the design of the web, because I wanted to make a responsive design for all the devices. 

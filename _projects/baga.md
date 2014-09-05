@@ -7,6 +7,14 @@ license: "cc-by-sa"
 images:
     - "poltsoa.jpg"
     - "poltsoa1.jpg"
+    - "poltsoa2.jpg"
+    - "poltsoa3.jpg"
+    - "poltsoa4.jpg"
+    - "poltsoa5.jpg"
+    - "poltsoa6.jpg"
+    - "poltsoa7.jpg"
+    - "poltsoa8.jpg"
+    - "poltsoa9.jpg"
 ---
 
 I wanted to make a bag for my sister, with the lyric of a special basque song.

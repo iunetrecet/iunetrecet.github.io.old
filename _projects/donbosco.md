@@ -6,6 +6,13 @@ thumbnail: "donbosco.png"
 license: "cc-by-sa"
 images:
     - "donbosco.jpg"
+    - "donbosco1.jpg"
+    - "donbosco2.jpg"
+    - "donbosco3.jpg"
+    - "donbosco4.jpg"
+    - "donbosco5.jpg"
+    - "donbosco6.jpg"
+    - "donbosco7.jpg"
 ---
 
 Don Bosco Ibilaldia,  a rally of classic cars, made a competition for the publishing poster.
