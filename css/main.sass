@@ -134,22 +134,3 @@ footer
         border-top: .2rem solid black
         margin: 0 !important
         padding: 2rem 0
-        +grid-row($behavior:nest)
-        a#license_icon
-            +grid-column($columns:4)
-            @media #{$medium-up}
-                +grid-column($columns:2)
-            img
-                padding: 5%
-                width: 90%
-        p#license_text
-            font-family: $subtitle
-            font-size: 1rem
-            +grid-column($columns:8)
-            @media #{$medium-up}
-                font-size: 1.5rem
-                +grid-column($columns:10)
-
-        span.bold
-            font-weight: bold
-
