@@ -11,6 +11,8 @@ a
     color: $darkgrey
 a:hover
     color: $grey
+h1, h2
+    font-weight: normal
 
 body
     margin: 0 5%
@@ -22,6 +24,7 @@ header#logo
     border-bottom: .2rem dotted black
     h1
         text-align: center
+        margin-top: 0
         img
             width: 40%
             @media #{$medium-up}
@@ -63,40 +66,35 @@ main
             margin: 4rem 0
         ul
             border-bottom: .1rem dashed black
+            +block-grid(2)
             li
+                padding: 0 !important
+                margin: 0
                 list-style: none
                 border-top: .1rem dashed black
-                +grid-row($behavior:nest)
                 section.thumbnail
                     padding: 0 !important
                     margin: 0
-                    +grid-column($columns:4)
-                    @media #{$large-up}
-                        +grid-column($columns:3)
+                    float: left
+                    width: 50%
                     img
                         border: .3rem black dotted
                         width: 80%
                         margin: 10%
                 hgroup
+                    padding: 0 !important
                     margin: 0
-                    +grid-column($columns:8)
-                    @media #{$medium-up}
-                        margin: 4% 0
-                    @media #{$large-up}
-                        +grid-column($columns:9)
+                    width: 50%
+                    float: left
                     h1
                         font-family: $title
                         font-size: 3.5rem
-                        margin: 0
+                        margin-bottom: 0
                         @media #{$medium-up}
                             font-size: 4rem
                     h2
                         font-family: $content
                         font-size: 1.3rem
-            li:nth-child(even)
-                text-align: right
-                section.thumbnail
-                    +grid-column($float:right)
     section#posts
         display: none
         ul
@@ -106,7 +104,7 @@ main
             padding: 0 10%
             background: url(../images/bird.svg), url(../images/bird1.svg)
             background-size: 10%
-            background-position: top left, bottom right 
+            background-position: top left, bottom right
             background-repeat: no-repeat
             li
                 width: 80%
@@ -122,7 +120,7 @@ main
             li:last-child
                 border-bottom: dotted .15em black
                 padding-bottom: 2em
-        
+
     section#cv
         section#infography
             img
