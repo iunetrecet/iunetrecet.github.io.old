@@ -4,17 +4,16 @@ layout: default
 
 <section id="project">
     {% if page.images %}
-    <table id="gallery">
-        <tr>
-            <td class="arrow prev"><p>&lt</p></td>
-            <td id="gallery_images">
-                {% for image in page.images %}
-                <img src="{{ site.baseurl }}images/projects/images/{{ image }}"/>
-                {% endfor %}
-            </td>
-            <td class="arrow next"><p>&gt</p></td>
-        </tr>
-    </table>
+    <section id="gallery">
+				<p class="arrow prev">&lt</p>
+				</ul>
+				<div id="gallery_images">
+						{% for image in page.images %}
+						<div id="image"><img src="{{ site.baseurl	}}images/projects/images/{{ image }}"/></div>
+						{% endfor %}
+				</div>
+				<p class="arrow next">&gt</p>
+    </section>
     {% endif %}
 
     <article>
