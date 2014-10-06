@@ -15,6 +15,14 @@ images:
     - "poltsoa7.jpg"
     - "poltsoa8.jpg"
     - "poltsoa9.jpg"
+    - "poltsoa10.jpg"
+    - "poltsoa11.jpg"
+    - "poltsoa12.jpg"
+    - "poltsoa13.jpg"
+    - "poltsoa14.jpg"
+    - "poltsoa15.jpg"
+    - "poltsoa16.jpg"
+    - "poltsoa17.jpg"
 ---
 
 I wanted to make a bag for my sister, with the lyric of a special basque song.
