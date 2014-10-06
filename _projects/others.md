@@ -5,7 +5,6 @@ subtitle: "Some of my projects"
 thumbnail: "bozak.png"
 license: "cc-by-sa"
 images:
-    - "betaurrekoak.jpg"
     - "betaurrekoak1.jpg"
     - "betaurrekoak2.jpg"
     - "betaurrekoak3.jpg"
