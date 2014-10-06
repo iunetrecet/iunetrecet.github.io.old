@@ -5,7 +5,7 @@ subtitle: "Marketing plan for a hacker meeting"
 thumbnail: "topahack.png"
 license: "public domain"
 images:
-    - "topahack.jpg"
+    - "topahack.png"
     - "topahack1.jpg"
     - "topahack2.jpg"
     - "topahack3.jpg"
@@ -18,8 +18,8 @@ images:
     - "topahack10.jpg"
 ---
 
-Topahack is a hacklabs meeting from Basque Country. 
+Topahack is a hacklabs meeting from Basque Country.
 
-The poster is a part of a communication campaign. The size is a half of a DIN-A3. 
+The poster is a part of a communication campaign. The size is a half of a DIN-A3.
 
 The style is digital and serious, because the aim are informatics.
