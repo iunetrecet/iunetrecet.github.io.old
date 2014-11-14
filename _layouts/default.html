@@ -24,13 +24,26 @@
 
   <body>
     <header id="logo">
-      <hgroup>
-        <h1>
-          <p>hau bold da</p>
-          <a href="/"><img alt="iune" src={% if page.header %}"{{ site.baseurl }}images/{{ page.header }}" class="index"{% else %}"{{ site.baseurl }}images/iune.svg{% endif %}" /></a>
-        </h1>
-      </hgroup>
+      <img alt="contact" src="{{ site.baseurl }}images/contact.svg" />
+      <h1>Iune Trecet Obeso</h1>
+      <h2>Libre graphics designer</h2>
     </header>
+
+    <nav>
+      <ul>
+        <li>About</li>
+        <li>Skills</li>
+        <li><a href="/"><img alt="iune" src="{{ site.baseurl }}images/iune.svg"
+            /></a></li>
+        <li>Work</li>
+        <li>Contact/Cv</li>
+      </ul>
+    </nav>
+
+
+    <main>
+      {{ content }}
+    </main>
 
     <ul id="info">
       <li>
@@ -49,10 +62,6 @@
         </a>
       </li>
     </ul>
-
-    <main>
-      {{ content }}
-    </main>
 
     <footer>
        <section id="license">
