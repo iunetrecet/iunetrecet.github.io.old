@@ -23,7 +23,7 @@
 
 
   <body>
-    <header>
+    <header id="main">
       <img alt="iune" src="{{ site.baseurl }}images/iune.png" />
       <hgroup>
         <h1>Iune Trecet Obeso</h1>
@@ -37,8 +37,8 @@
         <li>Skills</li>
         <li><a href="/"><img alt="iune" src="{{ site.baseurl }}images/iune.svg"
             /></a></li>
-        <li>Works</li>
-        <li>Contact/Cv</li>
+        <li>Portfolio</li>
+        <li>Contact/CV</li>
       </ul>
     </nav>
 
@@ -46,24 +46,6 @@
     <main>
       {{ content }}
     </main>
-
-    <ul id="info">
-      <li>
-        <a href="emailto:{{ site.author.email }}">
-          <img alt="contact" src="{{ site.baseurl }}images/contact.svg" />
-        </a>
-      </li>
-      <li>
-        <a href="{{ site.author.github }}">
-          <img alt="github" src="{{ site.baseurl }}images/github.svg" />
-        </a>
-      </li>
-      <li>
-        <a href="{{ site.author.flickr }}">
-          <img alt="flickr" src="{{ site.baseurl }}images/flickr.svg" />
-        </a>
-      </li>
-    </ul>
 
     <footer>
        <section id="license">
