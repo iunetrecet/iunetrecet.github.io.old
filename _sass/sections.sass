@@ -4,6 +4,20 @@ section
             font-family: $display
             font-size: 2rem
             position: relative
+    &#about_me
+        background: adjust-color(white, $lightness: -2%)
+        div#about_text
+            width: 66%
+            display: inline-block
+            p
+                font-size: 1.2rem
+                width: 75%
+                float: right
+        img
+            width: 30%
+            display: inline-block
+            vertical-align: top
+            margin-left: 3%
 
 section:nth-child(even)
     header.section
@@ -17,8 +31,8 @@ section:nth-child(even)
                 left: -1.7rem
                 content: ""
 section:nth-child(odd)
+    text-align: right
     header.section
-        text-align: right
         h1
             margin-right: 2rem
             &:after
@@ -28,3 +42,4 @@ section:nth-child(odd)
                 position: absolute
                 right: -1.7rem
                 content: ""
+
