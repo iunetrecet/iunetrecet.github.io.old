@@ -1,5 +1,17 @@
 section#about_me
+    text-align: right
     background: adjust-color(white, $lightness: -2%)
+    h1
+        margin-right: 2rem
+        &:before
+            display: none
+        &:after
+            background: black
+            width: 1.3rem
+            height: 1em
+            position: absolute
+            right: -1.7rem
+            content: ""
     div#about_text
         width: 66%
         display: inline-block
