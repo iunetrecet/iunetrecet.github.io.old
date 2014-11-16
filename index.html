@@ -12,6 +12,8 @@ layout: default
   <img src="{{ site.baseurl }}images/iune.jpg"/>
 </section>
 
+<img class="separation" src="{{ site.baseurl }}images/zurriola.jpg" alt="zurriola" />
+
 <section id="skills">
   <header class="section">
     <h1>Skills</h1>
@@ -25,6 +27,8 @@ layout: default
   </ul>
 </section>
 
+<img class="separation" src="{{ site.baseurl }}images/glasgow.jpg" alt="glasgow" />
+
 <section id="portfolio">
     <header class="section">
       <h1>Portfolio</h1>
@@ -34,7 +38,7 @@ layout: default
         <li>
             <a href="{{ project.url }}">
                 {% if project.thumbnail %}
-                <section class="thumbnail"><img src="{{ site.baseurl }}images/projects/thumbnails/{{ project.thumbnail }}"/></section>
+                <img src="{{ site.baseurl }}images/projects/thumbnails/{{ project.thumbnail }}"/>
                 {% endif %}
                 <hgroup>
                     <h1>{{ project.title }}</h1>
@@ -45,6 +49,8 @@ layout: default
         {% endfor %}
     </ul>
 </section>
+
+<img class="separation" src="{{ site.baseurl }}images/motora.jpg" alt="motora" />
 
 <section id="contact">
     <header class="section">
