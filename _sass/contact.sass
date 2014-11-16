@@ -6,24 +6,70 @@ section#contact
         &:before
             background: $red
     div#cv
-        background: $red
         display: inline-block
         width: 20%
-        margin: 3% 0
         position: relative
+        vertical-align: middle
         img
             width: 60%
             margin: 20%
-        a
+            border: $red solid .5rem
+        a#download
             font-weight: bold
             text-align: center
             font-size: 1.5em
             position: absolute
-            bottom: 0
+            bottom: 1rem
             left: 0
             display: block
             width: 100%
     div#contact
+        display: inline-block
+        width: 70%
+        margin: 0 0 3% 8%
+        vertical-align: middle
+        ul
+            width: 100%
+            li
+                width: 10rem
+                list-style: none
+                font-size: 1.5rem
+                background: $red
+                position: relative
+                height: 6rem
+                display: inline-block
+                margin-right: 1rem
+                img
+                    width: 50%
+                    margin: 0 25%
+                &:before
+                    content: ""
+                    position: absolute
+                    top: -3rem
+                    left: 0
+                    width: 0
+                    height: 0
+                    border-left: 5rem solid transparent
+                    border-right: 5rem solid transparent
+                    border-bottom: 3rem solid $red
+                &:after
+                    content: ""
+                    position: absolute
+                    bottom: -3rem
+                    left: 0
+                    width: 0
+                    height: 0
+                    border-left: 5rem solid transparent
+                    border-right: 5rem solid transparent
+                    border-top: 3rem solid $red
+
+
+
+
+
+
+    div#contacte
+        display: none
         display: inline-block
         width: 60%
         margin: 3% 0 3% 8%
