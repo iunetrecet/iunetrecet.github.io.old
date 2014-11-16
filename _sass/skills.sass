@@ -22,19 +22,24 @@ section#skills
                 width: 0
                 height: 0
                 content: ""
-                border-left: 10rem solid transparent
-                border-right: 10rem solid transparent
-                border-bottom: 20rem solid $red
+                border-left: 5rem solid transparent
+                border-right: 5rem solid transparent
+                border-bottom: 10rem solid $red
             h2
                 font-family: $display
                 color: adjust-color(black, $lightness: 25%)
                 position: absolute
                 bottom: 0
                 text-align: center
-                width: 20rem
+                width: 10rem
                 font-size: 1.9rem
             &:nth-child(even)
                 div
                     transform: rotate(180deg)
                 h2
                     top: 0
+            &:hover
+                h2
+                    color: $red
+                div
+                    border-bottom-color: adjust-color(black, $lightness: 25%)
