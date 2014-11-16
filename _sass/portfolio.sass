@@ -1,5 +1,5 @@
 section#portfolio
-    background: adjust-color($red, $lightness: 45%)
+    background: adjust-color(black, $lightness: 95%)
     padding: 2rem
     h1
         margin-left: 3rem
@@ -14,10 +14,30 @@ section#portfolio
         +block-grid(4)
         li
             margin: 0
-            padding: 0
+            position: relative
+            box-sizing: border-box
+            a
+                text-decoration: none
             img
-                width: 90%
-                margin: 5%
+                width: 100%
             hgroup
+                position: absolute
+                top: 40%
                 font-size: 1rem
-                display: none
+                text-align: center
+                width: 95%
+                h1, h2
+                    margin: 0
+                    display: none
+                    color: adjust-color(black, $lightness: 10%)
+                    padding: .5em 0
+                h1
+                    border-bottom: .1rem adjust-color($red, $lightness: -30%) solid
+                h2
+                    font-family: $serif
+                    font-size: 1rem
+            &:hover
+                h1, h2
+                    display: block
+                img
+                    opacity: .5
