@@ -1,11 +1,13 @@
 section#project
     position: relative
     padding: 2rem 0
+    margin: 0 !important
     +grid-row($behavior:nest)
     section#gallery
         margin: 0
         padding: 0 !important
         position: relative
+        font-size: 0
         +grid-column($columns:12)
         @media #{$medium-up}
             +grid-column($columns:9)
@@ -33,7 +35,7 @@ section#project
             width: 3%
             display: inline-block
             vertical-align: center
-            font-size: 5em
+            font-size: 3rem
             &.active
                 cursor: pointer
                 color: black
@@ -51,12 +53,15 @@ section#project
                 margin-top: 0
                 line-height: 1em
                 font-size: 1.2em
-            div.with_borders
-                border-top: .1em dashed black
-                border-bottom: .1em dashed black
-                padding: 1em 0
-                margin: 1.5em 0
-                p
-                    margin: .5em 0 0 0
-                p, a
-                    font-size: .8em
+                font-family: $serif
+        div.with_borders
+            border-top: .1em dashed black
+            border-bottom: .1em dashed black
+            padding: 1em 1em 0 1em
+            margin: 1.5em 1.5em 1.5em 0
+        div#article-content
+            margin-left: 1.5em
+        p
+            margin: .5em 0 1.5em 0
+        p, a
+            font-size: 1rem
