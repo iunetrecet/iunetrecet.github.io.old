@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "eraikin"
+title: "EraikIN"
 subtitle: "Web of building maps"
 thumbnail: "eraikin.png"
 license: "GPLv3"

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "topahack"
+title: "Topahack"
 subtitle: "Marketing plan for a hacker meeting"
 thumbnail: "topahack.png"
 license: "public domain"

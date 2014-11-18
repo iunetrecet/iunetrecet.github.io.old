@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "arzak pipak"
+title: "Arzak pipak"
 subtitle: "Publishing project of a photography subject"
 thumbnail: "pipak.png"
 license: "cc-by-sa"

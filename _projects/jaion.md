@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "jaion"
+title: "Jaion"
 subtitle: "Poster for an association's party"
 thumbnail: "jaion.png"
 license: "public domain"

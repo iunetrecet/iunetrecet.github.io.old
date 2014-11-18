@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "don bosco ibilaldia"
+title: "Don bosco ibilaldia"
 subtitle: "Poster for the rally of Don Bosco"
 thumbnail: "donbosco.png"
 license: "cc-by-sa"

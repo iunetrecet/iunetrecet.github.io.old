@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "libre svg icons"
+title: "Libre svg icons"
 subtitle: "Collection of icons"
 thumbnail: "libreicons.png"
 license: "public domain"

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "antxetamedia"
+title: "Antxetamedia"
 subtitle: "Web of a community radio"
 thumbnail: "antxetamedia.png"
 license: "GPLv3"

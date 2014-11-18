@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "ekietxe"
+title: "Ekietxe"
 subtitle: "Bioclimatic construction and renovation"
 thumbnail: "ekietxe.png"
 link: "http://ekietxe.com/"

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "baga biga"
+title: "Baga biga"
 subtitle: "Thread handbag of the Mikel Laboa's song"
 thumbnail: "baga.png"
 license: "cc-by-sa"
