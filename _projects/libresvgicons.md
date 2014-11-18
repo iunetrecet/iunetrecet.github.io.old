@@ -9,8 +9,8 @@ images:
     - "libreicons.jpg"
 ---
 
-Libre  SVG icons is a repository with many icons.
+Libre SVG icons is a repository with many icons.
 
-I started to make icons for different projects like EraikIN. I enjoy making these icons and I am still enlarging the repository.
+I started to make icons for different projects like EraikIN. I enjoy making these icons and I am still expanding the repository.
 
-The icons are made in a minimalist way. I tried not to use too many lines.
+The icons are made with a minimalist style. I tried not to use too many lines.

@@ -18,8 +18,8 @@ images:
     - "topahack10.jpg"
 ---
 
-Topahack is a hacklabs meeting from Basque Country.
+Topahack is a hacklab from the Basque Country.
 
 The poster is a part of a communication campaign. The size is a half of a DIN-A3.
 
-The style is digital and serious, because the aim are informatics.
+The style is digital and serious, aiming to reach computer scientists.

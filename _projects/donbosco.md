@@ -15,8 +15,8 @@ images:
     - "donbosco7.jpg"
 ---
 
-Don Bosco Ibilaldia,  a rally of classic cars, made a competition for the publishing poster.
+Don Bosco Ibilaldia, a rally of classic cars, made a competition for their poster.
 
-The poster presented by me was chosen for the top ten, and exposed at the finish of the rally.
+The poster presented by me was chosen for the top ten, and exposed at the end of the rally.
 
-For the design of the poster, I decided to make a tribute to the Seat 600, a spanish 60s icon. It is a colorful and flashy, like the cars and the period.
+For the design of the poster I decided to make a tribute to the Seat 600, a spanish icon from the 60s. It is all colorful and flashy, like the cars and the period itself.

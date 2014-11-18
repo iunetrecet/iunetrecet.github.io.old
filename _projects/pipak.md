@@ -16,4 +16,4 @@ images:
 
 My project was a sunflower seeds advertise. I wanted to make something special and I decided to make gourmet seeds.
 
-The gourmet style is transmitted with the white color and the minimalistic style.
+The gourmet style is transmitted by the white color and the minimalistic style.
