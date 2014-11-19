@@ -1,27 +1,36 @@
 section#about_me
     text-align: right
     background: adjust-color(white, $lightness: -2%)
-    h1
-        margin-right: 2rem
-        &:before
-            display: none
-        &:after
-            background: black
-            width: 1.3rem
-            height: 1em
-            position: absolute
-            right: -1.7rem
-            content: ""
+    font-size: 0
+    +grid-row($behavior: nest)
     div#about_text
-        width: 64%
-        display: inline-block
+        margin: 0 !important
+        padding: 0 0 0 3rem !important
+        box-sizing: border-box
+        +grid-column(8)
+        @media #{$small-only}
+            padding: 0 2rem !important
+            +grid-column(12)
+        h1
+            margin-right: 2rem
+            &:before
+                display: none
+            &:after
+                background: black
+                width: 1.3rem
+                height: 1em
+                position: absolute
+                right: -1.7rem
+                content: ""
         p
-            font-size: 1.2rem
-            width: 75%
-            float: right
-    img
-        width: 30%
-        display: inline-block
-        vertical-align: top
-        margin: 1% 1% 1% 3%
+            font-size: 1rem
+    div#about_image
+        margin: 0 !important
+        padding: 0 !important
+        +grid-column(4)
+        @media #{$small-only}
+            +grid-column(12)
+        img
+            width: 80%
+            margin: 10%
 
