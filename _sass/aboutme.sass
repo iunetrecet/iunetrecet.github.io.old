@@ -1,18 +1,18 @@
 section#about_me
     text-align: right
     background: adjust-color(white, $lightness: -2%)
-    font-size: 0
-    +grid-row($behavior: nest)
+    padding: 4rem 0 2rem 4rem
+    box-sizing: border-box
+    +grid-row()
     div#about_text
-        margin: 0 !important
-        padding: 0 0 0 3rem !important
-        box-sizing: border-box
-        +grid-column(8)
+        +grid-column($columns:8, $collapse:true)
         @media #{$small-only}
-            padding: 0 2rem !important
-            +grid-column(12)
+            padding-right: 2rem !important
+            box-sizing: border-box
+            +grid-column($columns:12, $collapse:true)
         h1
             margin-right: 2rem
+            margin-top: 0
             &:before
                 display: none
             &:after
@@ -24,13 +24,18 @@ section#about_me
                 content: ""
         p
             font-size: 1rem
+            @media #{$large-up}
+                font-size: 1.2rem
     div#about_image
-        margin: 0 !important
-        padding: 0 !important
-        +grid-column(4)
+        box-sizing: border-box
+        +grid-column($columns:4, $collapse:true)
         @media #{$small-only}
-            +grid-column(12)
+            padding-right: 2rem !important
+            +grid-column($columns:12, $collapse:true)
         img
             width: 80%
-            margin: 10%
+            margin: 0 10%
+            @media #{$small-only}
+                width: 100%
+                margin: 0 !important
 
