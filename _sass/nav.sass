@@ -5,20 +5,27 @@ nav
     top: 0
     left: 0
     z-index: 1000
+    @media #{$small-only}
+        position: static
     ul
         margin: 0
         padding: 0
+        width: 75%
+        margin-left: 12.5%
+        font-size: 0
         li
             display: inline-block
-            width: 15%
+            width: 20%
             margin: 0
             padding: 0 !important
             list-style: none
             text-align: center
-            font-size: 1.2rem
             vertical-align: middle
+            font-size: 1.2rem
+            @media #{$small-only}
+                width: 50%
+                margin: 0 25%
+                font-size: 1rem
             img
                 width: 40%
                 margin: 5% 30%
-        li:first-child
-            margin-left: 12.5%
