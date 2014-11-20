@@ -4,6 +4,8 @@ section#about_me
     padding: 4rem 0 2rem 4rem
     box-sizing: border-box
     +grid-row()
+    @media #{$small-only}
+        padding: 2rem 0 2rem 2rem
     div#about_text
         +grid-column($columns:8, $collapse:true)
         @media #{$small-only}
