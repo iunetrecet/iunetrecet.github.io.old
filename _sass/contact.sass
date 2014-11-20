@@ -1,10 +1,8 @@
 section#contact
-    background: adjust-color(black, $lightness: 60%)
+    background: adjust-color(black, $lightness: 80%)
     padding: 2rem
     box-sizing: border-box
-    width: 100% !important
-    margin: 0 !important
-    +grid-row($behavior: nest)
+    +grid-row()
     h1
         color: $red
         margin-left: 5rem
@@ -14,27 +12,36 @@ section#contact
         padding: 0 !important
         position: relative
         +grid-column(3)
+        @media #{$small-only}
+            +grid-column(12)
         img
             width: 60%
             margin: 0 20%
             border: $red solid .5rem
+            box-sizing: border-box
         a#download
             font-weight: bold
             text-align: center
-            font-size: 1.5rem
+            font-size: 1.1rem
             position: absolute
             bottom: 1rem
             left: 0
             display: block
-            width: 100%
+            width: 60%
+            margin: 0 20%
             color: $red
     div#contact
         padding: 0 !important
         +grid-column(9)
+        @media #{$small-only}
+            +grid-column(12)
         ul
+            padding: 0
+            font-size: 0
+            margin-top: 2rem
             li
                 display: inline-block
-                width: 13%
+                width: 16%
                 margin: 2%
                 padding: 0
                 font-size: 0
