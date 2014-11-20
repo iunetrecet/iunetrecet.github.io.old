@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "lakaxita"
+title: "Lakaxita"
 subtitle: "Web for an association"
 thumbnail: "lakaxita.png"
 license: "GPLv3"
