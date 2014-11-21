@@ -10,9 +10,11 @@ section#portfolio
         margin: 0
         padding: 0
         font-size: 0
-        +block-grid(4)
-        @media #{$small-only}
-            +block-grid(1)
+        +block-grid(1)
+        @media #{$medium-only}
+            +block-grid(2)
+        @media #{$large-up}
+            +block-grid(4)
         li
             margin: 0
             position: relative
@@ -21,24 +23,46 @@ section#portfolio
                 text-decoration: none
             img
                 width: 100%
+                opacity: .5
+                @media #{$medium-up}
+                    opacity: 1
             hgroup
                 position: absolute
-                top: 40%
-                font-size: 1rem
                 text-align: center
+                top: 0
+                left: 0
                 width: 95%
+                height: 95%
+                margin: 0 2.5%
+                font-size: 1rem
+                @media #{$medium-up}
+                    display: none
                 h1, h2
                     margin: 0
-                    display: none
-                    color: adjust-color(black, $lightness: 10%)
-                    padding: .5em 0
+                    color: adjust-color($red, $lightness: -30%)
+                    box-sizing: border-box
                 h1
-                    border-bottom: .1rem adjust-color($red, $lightness: -30%) solid
+                    line-height: 1em
+                    height: 30%
+                    margin-top: 35%
+                    font-size: 1.5rem
+                    padding: 0 1em
+                    font-family: $display
+                    @media #{$medium-up}
+                        font-size: 3rem
                 h2
                     font-family: $serif
                     font-size: 1rem
+                    position: absolute
+                    bottom: 0
+                    border-top: .2rem adjust-color($red, $lightness: -30%) solid
+                    min-height: 3.5em
+                    padding: .5em
+                    margin: .5em
+                    box-sizing: border-box
             &:hover
-                h1, h2
-                    display: block
+                @media #{$medium-up}
+                    hgroup
+                        display: block
                 img
                     opacity: .5
