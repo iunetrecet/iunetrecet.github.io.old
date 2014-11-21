@@ -36,11 +36,12 @@ section#skills
                 text-align: center
                 width: 10rem
                 font-size: 1.9rem
-            &:nth-child(even)
-                div
-                    transform: rotate(180deg)
-                h2
-                    top: 0
+            @media #{$medium-up}
+                &:nth-child(even)
+                    div
+                        transform: rotate(180deg)
+                    h2
+                        top: 0
             &:hover
                 h2
                     color: $red
