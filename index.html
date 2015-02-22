@@ -1,75 +1,38 @@
 ---
 layout: default
-header: header.svg
 ---
 
-<section id="about_me">
-  <div id="about_text">
-    <header class="section">
-      <h1>About me</h1>
-    </header>
-    {% include about.html %}
-  </div>
-  <div id="about_image"><img src="{{ site.baseurl }}images/iune.jpg"/></div>
-</section>
-
-<img class="separation" src="{{ site.baseurl }}images/zurriola.jpg" alt="zurriola" />
-
-<section id="skills">
-  <header class="section">
-    <h1>Skills</h1>
-  </header>
+<section id="portfolio">
   <ul>
-    <li><div></div><h2>Advertising</h2></li>
-    <li><div></div><h2>Web design</h2></li>
-    <li><div></div><h2>Identity & Branding</h2></li>
-    <li><div></div><h2>Front-end development</h2></li>
-    <li><div></div><h2>Typography</h2></li>
+    {% for project in site.projects %}
+    <li>
+      <a href="{{ project.url }}">
+          {% if project.thumbnail %}
+          <img src="{{ site.baseurl }}images/projects/thumbnails/{{ project.thumbnail }}"/>
+          {% endif %}
+      </a>
+    </li>
+    {% endfor %}
   </ul>
 </section>
 
-<img class="separation" src="{{ site.baseurl }}images/glasgow.jpg" alt="glasgow" />
-
-<section id="portfolio">
-    <header class="section">
-      <h1>Portfolio</h1>
-    </header>
-    <ul>
-        {% for project in site.projects %}
-        <li>
-            <a href="{{ project.url }}">
-                {% if project.thumbnail %}
-                <img src="{{ site.baseurl }}images/projects/thumbnails/{{ project.thumbnail }}"/>
-                {% endif %}
-                <hgroup>
-                    <h1>{{ project.title }}</h1>
-                    <h2>{{ project.subtitle }}</h2>
-                </hgroup>
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
-</section>
-
-<img class="separation" src="{{ site.baseurl }}images/motora.jpg" alt="motora" />
-
 <section id="contact">
-    <header class="section">
-        <h1>Contact/CV</h1>
-    </header>
+  <header class="section">
+    <h1>Contact/CV</h1>
+  </header>
 
-    <div id="cv">
-      <a href="{{ site.baseurl }}iune_cv.pdf"><img src="{{ site.baseurl }}images/iune_cv.svg" alt="cv" /></a>
-      <a id="download" href="{{ site.baseurl }}iune_cv.pdf">Download CV</a>
-    </div>
+  <div id="cv">
+    <a href="{{ site.baseurl }}iune_cv.pdf"><img src="{{ site.baseurl }}images/iune_cv.svg" alt="cv" /></a>
+    <a id="download" href="{{ site.baseurl }}iune_cv.pdf">Download CV</a>
+  </div>
 
-    <div id="contact">
-      <ul>
-        <li><a href="http://osm.org/go/evW_NY80-?m=&node=28530245"><img src="{{ site.baseurl }}images/location.svg" alt="location" /></a></li>
-        <li><a href="mailto:contact@iune.info"><img src="{{ site.baseurl }}images/mail.svg" alt="email" /></li>
-        <li><a href="http://github.com/iunetrecet"><img src="{{ site.baseurl }}images/github.svg" alt="github" /></a></li>
-        <li><a href="https://www.flickr.com/photos/iunetrecet/"><img src="{{ site.baseurl }}images/flickr.svg" alt="flickr" /></a></li>
-        <li><a href="https://www.linkedin.com/pub/iune-trecet-obeso/a6/b14/7bb"><img src="{{ site.baseurl }}images/linkedin.svg" alt="linkedin" /></a></li>
-      </ul>
-    </div>
+  <div id="contact">
+    <ul>
+      <li><a href="http://osm.org/go/evW_NY80-?m=&node=28530245"><img src="{{ site.baseurl }}images/location.svg" alt="location" /></a></li>
+      <li><a href="mailto:contact@iune.info"><img src="{{ site.baseurl }}images/mail.svg" alt="email" /></li>
+      <li><a href="http://github.com/iunetrecet"><img src="{{ site.baseurl }}images/github.svg" alt="github" /></a></li>
+      <li><a href="https://www.flickr.com/photos/iunetrecet/"><img src="{{ site.baseurl }}images/flickr.svg" alt="flickr" /></a></li>
+      <li><a href="https://www.linkedin.com/pub/iune-trecet-obeso/a6/b14/7bb"><img src="{{ site.baseurl }}images/linkedin.svg" alt="linkedin" /></a></li>
+    </ul>
+  </div>
 </section>
