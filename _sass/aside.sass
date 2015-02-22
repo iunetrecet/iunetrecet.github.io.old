@@ -1,0 +1,46 @@
+aside
+  background: $darkgrey
+  color: white
+  padding: 1.5em
+  box-sizing: border-box
+  width: 100%
+  @media #{$medium-up}
+    position: fixed
+    height: 100%
+    width: 30%
+    overflow-y: scroll
+  section#about_me
+    header
+      img
+        width: 40%
+        display: block
+        margin: 1rem auto
+      h1
+        text-align: center
+    p
+      font-size: 1rem
+      text-align: justify
+    span.red
+      color: $red
+      font-size: 1.5rem
+      font-family: $serif
+  footer
+    a#write_me
+      display: block
+      margin: 5em auto
+      border: .15em solid white
+      color: white
+      border-radius: .4em
+      padding: .5em 1em
+      text-decoration: none
+      text-align: center
+      width: -moz-fit-content
+      width: fit-content
+    img#logo, img#license
+      display: block
+      margin: 1em auto
+    img#logo
+      width: 30%
+      margin-top: 5em
+    img#license
+      width: 20%
