@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="99.224518"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.91pre1 r13432"
+   sodipodi:docname="music.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.1"
+   viewBox="0 0 100 99.22452">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.50734351"
+     inkscape:cx="-66.622124"
+     inkscape:cy="11.949265"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="906"
+     inkscape:window-height="879"
+     inkscape:window-x="0"
+     inkscape:window-y="19"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1040.4378,-773.99747)">
+    <path
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#e49d9d;fill-opacity:1;stroke:none;stroke-width:0.66173661;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+       d="m 1089.7962,773.99759 c -43.8768,-0.0829 -49.3584,41.73172 -49.3584,41.73172 l 0,36.43396 8.4043,0 0,-36.43396 c 0,0 7.5935,-31.88634 40.9541,-31.26645 38.7927,0.72024 41.8569,33.72054 41.8569,33.72054 l 0,34.10894 8.7847,0 0,-34.10894 c 0,0 -0.2457,-44.08812 -50.6416,-44.18581 z m 21.3219,61.62823 0,37.33774 16.0137,0 0,-37.33774 -16.0137,0 z m -58.6564,0.25754 0,37.33863 16.0134,0 0,-37.33863 -16.0134,0 z"
+       id="rect30824-0-3-3-4"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
