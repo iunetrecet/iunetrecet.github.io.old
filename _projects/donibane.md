@@ -1,17 +1,26 @@
 ---
 layout: project
-title: "Antxetamedia"
-subtitle: "Web of a community radio"
+title: "Donibane"
+subtitle: "Illustration of a lovely village"
 thumbnail: "donibane.png"
-license: "GPLv3"
-link: "http://antxetamedia.info/"
+license: "cc-by-sa"
 images:
-    - "antxetamedia.jpg"
-    - "antxetamedia1.jpg"
+    - "donibane.jpg"
+    - "donibane1.jpg"
+    - "donibane2jpg"
+    - "donibane3.jpg"
+    - "donibane4.jpg"
+    - "donibane5.jpg"
+    - "donibane6.jpg"
 ---
 
-Antxeta Irratia is a community radio from the Bidasoa valley.
+This is one of the hardest project I have ever made, however, is the more
+beautiful.
 
-Antxeta Irratia decided to make a new website because they used to have a blog but now have too much information.
+Before coming to Glasgow, I wanted to give a present to all the people that is
+important in my life. I had this project in mind and I thought that was the best
+moment to carry out.
 
-This was my first project as web designer and it was a very big challenge for me. There was a lot information on the first page, but it had to be very neat. I though to make a third column page for a better distribution of the content. It has sober colors to give importance to the images and clean readability for the content.
+The village is Pasai Donibane, although is the most lovely village in the Basque coast, the
+fact that my father and all my family is from this village was the most
+important condition to make it.
