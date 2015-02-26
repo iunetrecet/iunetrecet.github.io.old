@@ -3,38 +3,37 @@ layout: default
 ---
 
 <section id="project">
-    {% if page.images %}
-    <section id="gallery">
-				<p class="arrow prev">&lt</p>
-				</ul>
-				<div id="gallery_images">
-					<div id="image">
-						{% for image in page.images %}
-						<img src="{{ site.baseurl	}}images/projects/images/{{ image }}"/>
-						{% endfor %}
-					</div>
-				</div>
-				<p class="arrow next">&gt</p>
-    </section>
-    {% endif %}
+  {% if page.images %}
+  <section id="gallery">
+    <p class="arrow prev">{</p>
+		<div id="gallery_images">
+			<div id="image">
+				{% for image in page.images %}
+				<img src="{{ site.baseurl	}}images/projects/images/{{ image }}"/>
+				{% endfor %}
+			</div>
+		</div>
+    <p class="arrow next">}</p>
+  </section>
+  {% endif %}
 
-    <article>
-        <header>
-            <hgroup>
-                <h1>{{ page.title }}</h1>
-                <h2>{{ page.subtitle }}</h2>
-            </hgroup>
-            <div class="with_borders">
-                {% if page.link %}
-                <a class="project_link" href="{{ page.link }}">{{ page.link }}</a>
-                {% endif %}
-                {% if page.license %}
-                <p>License: {{ page.license }}</p>
-                {% endif %}
-            </div>
-        </header>
-        <div id="article_content">{{ content }}</div>
-    </article>
+  <article>
+    <header>
+      <hgroup>
+        <h1>{{ page.title }}</h1>
+        <h2>{{ page.subtitle }}</h2>
+      </hgroup>
+      <div class="with_borders">
+        {% if page.link %}
+        <a class="project_link" href="{{ page.link }}">{{ page.link }}</a>
+        {% endif %}
+        {% if page.license %}
+        <p>License: {{ page.license }}</p>
+        {% endif %}
+      </div>
+    </header>
+    <div id="article_content">{{ content }}</div>
+  </article>
 
 </section>
 
