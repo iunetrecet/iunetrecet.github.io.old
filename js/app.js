@@ -36,7 +36,7 @@ Gallery.prototype.hasNext = function() {
     return this.current.next().length != 0;
 };
 Gallery.prototype.hasPrev = function() {
-    return this.current.prev().length != 0;
+    return this.current.prev().length !== 0;
 };
 Gallery.prototype.next = function() {
     if (this.hasNext()) {
@@ -52,5 +52,8 @@ Gallery.prototype.prev = function() {
 };
 
 $(document).ready(function() {
-    var gallery = new Gallery('#gallery_images img', '#gallery .prev', '#gallery .next');
+    var isMobile = window.matchMedia("only screen and (max-width: 760px)");
+    if (!isMobile.matches) {
+        new Gallery('#gallery_images img', '#gallery .prev', '#gallery .next');
+    }
 });
