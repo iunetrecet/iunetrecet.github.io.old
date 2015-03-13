@@ -7,7 +7,7 @@ license: "cc-by-sa"
 images:
     - "donibane.jpg"
     - "donibane1.jpg"
-    - "donibane2jpg"
+    - "donibane2.jpg"
     - "donibane3.jpg"
     - "donibane4.jpg"
     - "donibane5.jpg"
