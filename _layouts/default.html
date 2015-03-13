@@ -31,9 +31,11 @@
             <h1><a href="/"><img alt="iune" src="{{ site.baseurl }}images/iune.svg" /></a></h1>
           </header>
           {% if page.layout == 'project' %}
-            {{ page.title }}
-            {{ page.license }}
-            {{ page.content }}
+          <header>
+            <h2 id="ProjectTitle">{{ page.title }}</h2>
+            <p id="ProjectLicense">License: {{ page.license }}</p>
+          </header>
+          <div id="ProjectContent">{{ page.content }}</div>
           {% else %}
             {% include about.html %}
           {% endif %}
