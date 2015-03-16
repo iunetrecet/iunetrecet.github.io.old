@@ -7,9 +7,11 @@ section#portfolio
     font-size: 0
     li
       list-style: none
-      display: inline-block
-      width: 48%
       margin-bottom: 4%
+      width: 100%
+      @media #{$medium-up}
+        width: 48%
+        display: inline-block
       img
         width: 100%
     li:nth-child(odd)
