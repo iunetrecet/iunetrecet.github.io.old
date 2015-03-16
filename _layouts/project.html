@@ -5,7 +5,7 @@ layout: default
 <section id="project">
   {% if page.images %}
   <section id="gallery">
-    <p class="arrow prev">{</p>
+    <image class="arrow prev" alt="prev" src="{{ site.baseurl }}images/arrows.svg" />
 		<div id="gallery_images">
 			<div id="image">
 				{% for image in page.images %}
@@ -13,7 +13,7 @@ layout: default
 				{% endfor %}
 			</div>
 		</div>
-    <p class="arrow next">}</p>
+    <image class="arrow next" alt="next" src="{{ site.baseurl }}images/arrows.svg" />
   </section>
   {% endif %}
 

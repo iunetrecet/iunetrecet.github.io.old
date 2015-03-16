@@ -4,7 +4,7 @@ section#project
     img
       width: 95%
       margin: 2.5%
-  p.arrow
+  .arrow
     display: none
 @media #{$medium-up}
   section#project
@@ -28,24 +28,25 @@ section#project
           max-height: 100vh
           max-width: 100%
           width: inherit
-      p.arrow
+      .arrow
         display: block
         position: absolute
         vertical-align: middle
-        font-size: 3rem
-        color: grey
-        font-family: $serif
+        width: 5%
         top: 45%
         z-index: 5
         margin: 0
         text-align: center
         padding: 0 .2em
+        @media #{$small-only}
+          display: none
         &.active
           cursor: pointer
           color: #303030
-        &:first-child
-          left: 0
-        &:last-child
-          right: 0
+        &.prev
+          left: 1%
+          transform: rotate(180deg)
+        &.next
+          right: 1%
 article
   display: none
