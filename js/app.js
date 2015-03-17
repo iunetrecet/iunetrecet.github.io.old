@@ -52,7 +52,7 @@ Gallery.prototype.prev = function() {
 };
 
 $(document).ready(function() {
-    var isMobile = window.matchMedia("only screen and (max-width: 760px)");
+    var isMobile = window.matchMedia("only screen and (max-width: 40em)");
     if (!isMobile.matches) {
         new Gallery('#gallery_images img', '#gallery .prev', '#gallery .next');
     }
